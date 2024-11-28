@@ -15,7 +15,7 @@ spec:
     targetPort: 3306 # container port
 
 ---
- kind: Service
+kind: Service
 apiVersion: v1
 metadata:
   name: nginx
